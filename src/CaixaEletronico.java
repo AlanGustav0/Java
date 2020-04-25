@@ -11,7 +11,6 @@ Objetivo: Este algorítimo tem como objetivo as seguintes funcionalidades:
 Programador: Alan Gustavo
 Data: 24/04/2020
 
-Teste Commit 2
 */
 
 import javax.swing.JOptionPane;
