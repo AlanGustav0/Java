@@ -1,4 +1,4 @@
-# Java - Projeto Caixa Eletrônico
-Projeto desenvolvido na disciplina Linguagem de Programação da FATEC Zona Leste. Com o objetivo de desenvolver um algorítimo que simule as funcionalidades de um caixa eletrônico.
+# Java
+Projetos desenvolvidos na disciplina Linguagem de Programação da FATEC Zona Leste. Os algorítimos aqui desenvolvidos possuem a finalidade para material de estudo, aperfeiçoamento.
 
-Desenvolvido utilizando o software NetBeans, possui contêm todas as classes necessárias e pastas "build" e "nbprojects", fundamentais para a execução da interface gráfica Java Swing.
+Os projetos são desenvolvidos utilizando a biblioteca JavaSwing, utilização de JFrames, instâncias de classe, desenvolvimento de métodos. desenvolvidos utilizando Netbeans e Visual Studio Code.
