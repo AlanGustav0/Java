@@ -2,6 +2,7 @@
 Objetivo: Receba a data de nascimento e atual em ano, mês e dia. Calcule e mostre a
 idade em anos, meses e dias, considerando os anos bissextos.
 
+
 Programador: Alan Gustavo
 Data: 28/03/2020
 */
@@ -44,7 +45,7 @@ public class Calcula_Idade
     /********************************************************************
      * MÓDULO PROCEDIMENTO CONDICIONAIS QUE VERIFICAM E MOSTRAM OS RESULTADOS
     **********************************************************************/
-    static void VerificarMostrarDatas()
+    private static void VerificarMostrarDatas()
     {
         
         // * CONDIÇÕES COM DIASMESE E MESES DE NASCIMENTO MENORES QUE ATUAL (<) - ANO DE NASCIMENTO MENOR (<) OU (=)
@@ -246,7 +247,7 @@ public class Calcula_Idade
      * MÓDULO PROCEDIMENTO QUE VALIDA AS DATAS INSERIDAS
     **********************************************************************/
     
-    static void ValidaDatas()
+    private static void ValidaDatas()
     {
         while(validaDatas == false)
         {
@@ -280,7 +281,7 @@ public class Calcula_Idade
     /********************************************************************
      * MÓDULO FUNÇÃO QUE CALCULA ANOS BISSEXTOS
     **********************************************************************/
-    static int CalculaBissexto(int anoNasc, int anoAtual)
+    private static int CalculaBissexto(int anoNasc, int anoAtual)
     {
         
         for(int ano = anoNasc;ano <= anoAtual;ano++)
@@ -298,7 +299,7 @@ public class Calcula_Idade
     /********************************************************************
      * MÓDULO FUNÇÃO QUE CALCULA OS DIAS
     **********************************************************************/
-    static int CalculaDias(int diaNasc, int contadorDias)
+    private static int CalculaDias(int diaNasc, int contadorDias)
     {
         contaDias = diaNasc;
         
@@ -322,7 +323,7 @@ public class Calcula_Idade
     /********************************************************************
      * MÓDULO FUNÇÃO QUE CALCULA OS MESES
     **********************************************************************/
-    static int CalculaMeses(int mesNasc, int contadorMes)
+    private static int CalculaMeses(int mesNasc, int contadorMes)
     {
         contaMes = mesNasc;
             
@@ -345,7 +346,7 @@ public class Calcula_Idade
     /********************************************************************
      * MÓDULO PROCEDIMENTO ORDENA MESES E DIAS
     **********************************************************************/
-    static void Ordena()
+    private static void Ordena()
     {
         diaTotal += CalculaBissexto(anoNasc,anoAtual);
         
