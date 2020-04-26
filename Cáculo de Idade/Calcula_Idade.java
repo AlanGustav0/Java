@@ -7,7 +7,7 @@ Data: 28/03/2020
 */
 import javax.swing.JOptionPane;
 
-public class LOT01_MOD_PROC_FUNC30 
+public class Calcula_Idade 
 {
     
     //DECLARAÇÃO DE VARIÁVEIS GLOBAIS
