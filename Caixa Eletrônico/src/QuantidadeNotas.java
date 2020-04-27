@@ -1,6 +1,4 @@
-
-
- /*
+/*
  Objetivo: Esta classe é responsável por fazer a validação da quantidade de notas
  ela verifica se o caixa possui notas o suficiente para posteriormente autorizar o saque ou não.
 

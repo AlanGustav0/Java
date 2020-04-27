@@ -1,6 +1,4 @@
-
-
- /*
+/*
 Objetivo: Esta classe é responsável por mostrar a janaela "Menu Principal"
 onde estão as opções disponíveis para serem realizadas no caixa.
 Este caixa realiza saques até o número de notas disponíveis acabar ou até

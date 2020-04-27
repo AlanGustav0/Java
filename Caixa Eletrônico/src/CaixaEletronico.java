@@ -1,6 +1,4 @@
-
-
- /*
+/*
 Objetivo: Este algorítimo tem como objetivo as seguintes funcionalidades:
 
 • Carregar Notas

@@ -1,6 +1,4 @@
-
-
- /*
+/*
 Objetivo: Esta classe é responsável por realizar o saque, validação
 verificar o maior e menor valor e também possui o método que mostra as notas disponíveis.
 
@@ -38,24 +36,6 @@ public class RetiraNotas {
     }
 
     static void validaSaque() {
-
-        /*    
-         while (opcaoBanco == false) {
-
-         Cod_banco = Integer.parseInt(JOptionPane.showInputDialog("Por favor, informe qual é o seu banco: \n"
-         + "0 - Banco do Brasil \n 1 - Itaú \n 2 - Caixa Econômica \n 3 - Santander "));
-
-         if (Cod_banco != 0 && Cod_banco != 1 && Cod_banco != 2 && Cod_banco != 3) {
-         JOptionPane.showMessageDialog(null, "Opção inválida!");
-
-         } else {
-         matrizBancos[0][Cod_banco] = Cod_banco;
-         opcaoBanco = true;
-         }
-         }
-         */
-        
-        
         do {
             valorSaque = Integer.parseInt(JOptionPane.showInputDialog("Insira o valor do saque: ")); //Recebendo o valor do saque e realizando a validação inicial
             guardaSaque = valorSaque; // Primeiro backup do valor de saque

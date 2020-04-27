@@ -118,7 +118,7 @@ public class EscolhaBanco extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    //Opção Banco do Brasil
+    //Opção Banco Azul
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         RetiraNotas.Cod_banco = 0;
         RetiraNotas.matrizBancos[0][RetiraNotas.Cod_banco] = 0;
@@ -130,7 +130,7 @@ public class EscolhaBanco extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    //Opção Itaú
+    //Opção Verde
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         RetiraNotas.Cod_banco = 1;
         RetiraNotas.matrizBancos[0][RetiraNotas.Cod_banco] = 1;
@@ -142,7 +142,7 @@ public class EscolhaBanco extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    //Opção Caixa Econômica
+    //Opção Roxo
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         RetiraNotas.Cod_banco = 2;
         RetiraNotas.matrizBancos[0][RetiraNotas.Cod_banco] = 2;
@@ -154,7 +154,7 @@ public class EscolhaBanco extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    //Opção Santander
+    //Opção Preto
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         RetiraNotas.Cod_banco = 3;
         RetiraNotas.matrizBancos[0][RetiraNotas.Cod_banco] = 3;

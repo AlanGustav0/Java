@@ -1,5 +1,3 @@
-
-
  /*
 Objetivo: Esta classe é responsável por carregar as notas no caixa.
 
