@@ -4,11 +4,8 @@ class Main {
 
     // Declaração de Variáveis
 
-    static float Notas[][] = new float[3][2];
-    static String alunos[] = new String[3];
-    static float mediaProvas[] = new float[2];
-    static String mostrarMatriz = " ";
-    static String mostraProvas = " ";
+    static float Notas[][] = new float[3][2], mediaProvas[] = new float[2];
+    static String mostrarMatriz = " ", mostraProvas = " ", alunos[] = new String[3];;
 
     public static void main(String[] args) {
 
