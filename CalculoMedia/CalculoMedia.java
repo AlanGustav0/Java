@@ -52,7 +52,6 @@ class Main {
         JOptionPane.showMessageDialog(null, "Abaixo temos a média dos alunos:" + "\n" + mostrarMatriz);
 
         // Imprimindo o resultado das médias das notas
-
         JOptionPane.showMessageDialog(null, "A médias da prova foi de: \n" + mostraProvas);
 
     }
