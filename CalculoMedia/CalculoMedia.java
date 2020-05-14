@@ -27,15 +27,17 @@ class Main {
             }
         }
 
-        // Laço de repetição pata montar a estrutura de matriz que mostrará os
-        // resultados e fazer o cálculo da média
+        /*
+         * Laço de repetição que monta a estrutura da matriz que mostrará os resultados
+         * e fazer o cálculo da média
+         */
         for (int i = 0; i < 3; i++) {
             for (int j = 1; j < 2; j++) {
-                alunos[i] = "Média do " + (i + 1) + "º aluno: "; // lista unidimencional que recebe o texto e o índice
-                                                                 // do aluno
-                Notas[i][j] = (Notas[i][j - 1] + Notas[i][j]) / 2; // Cálculo da média
-                mostrarMatriz += alunos[i] + Notas[i][j] + " " + " "; // Concatenando as informações na variável
-                                                                      // "mostraMatriz"
+                alunos[i] = "Média do " + (i + 1) + "º aluno: ";
+
+                Notas[i][j] = (Notas[i][j - 1] + Notas[i][j]) / 2;
+                mostrarMatriz += alunos[i] + Notas[i][j] + " " + " ";
+
             }
             mostrarMatriz += "\n"; // Concatenando a quebra de linha na matriz
         }
