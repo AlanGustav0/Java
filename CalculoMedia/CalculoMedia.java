@@ -5,7 +5,6 @@ class Main {
     // Declaração de Variáveis
 
     static float Notas[][] = new float[3][2];
-    static float media[][] = new float[3][2];
     static String alunos[] = new String[3];
     static String mostrarMatriz = " ";
 
@@ -35,8 +34,8 @@ class Main {
             for (int j = 1; j < 2; j++) {
                 alunos[i] = "Média do " + (i + 1) + "º aluno: "; // lista unidimencional que recebe o texto e o índice
                                                                  // do aluno
-                media[i][j] = (Notas[i][j - 1] + Notas[i][j]) / 2; // Cálculo da média
-                mostrarMatriz += alunos[i] + media[i][j] + " " + " "; // Concatenando as informações na variável
+                Notas[i][j] = (Notas[i][j - 1] + Notas[i][j]) / 2; // Cálculo da média
+                mostrarMatriz += alunos[i] + Notas[i][j] + " " + " "; // Concatenando as informações na variável
                                                                       // "mostraMatriz"
             }
             mostrarMatriz += "\n"; // Concatenando a quebra de linha na matriz
