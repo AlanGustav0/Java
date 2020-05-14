@@ -39,7 +39,7 @@ class Main {
                 mostrarMatriz += alunos[i] + media[i][j] + " " + " "; // Concatenando as informações na variável
                                                                       // "mostraMatriz"
             }
-            mostrarMatriz += "\n";
+            mostrarMatriz += "\n"; // Concatenando a quebra de linha na matriz
         }
 
         // Mensagem mostrando o resultado final
