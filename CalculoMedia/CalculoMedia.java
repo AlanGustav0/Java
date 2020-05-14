@@ -8,6 +8,7 @@ class Main {
     static String alunos[] = new String[3];
     static float mediaProvas[] = new float[2];
     static String mostrarMatriz = " ";
+    static String mostraProvas = " ";
 
     public static void main(String[] args) {
 
@@ -41,18 +42,18 @@ class Main {
             }
             mostrarMatriz += "\n"; // Concatenando a quebra de linha na matriz
         }
-        
-        //Laço de repetição para calcular a média das notas de prova
-        for(int i = 0; i < 2;i++){
-            mediaProvas[i] = Notas[0][i] + Notas[1][i] + Notas[2][i] / 3;
+
+        // Laço de repetição para calcular a média das notas de prova
+        for (int i = 0; i <= 1; i++) {
+            mediaProvas[i] = (Notas[0][i] + Notas[1][i] + Notas[2][i]) / 3;
+            mostraProvas += "Média da " + (i + 1) + " º prova: " + String.format("%.2f", mediaProvas[i]) + "\n";
         }
         // Imprimindo o resultado das médias dos alunos
         JOptionPane.showMessageDialog(null, "Abaixo temos a média dos alunos:" + "\n" + mostrarMatriz);
 
-        //Imprimindo o resultado das médias das notas
-        for(int i = 0; i < 2;i++){
-            JOptionPane.showMessageDialog(null, "A média da prova " + (i+1) + " foi de: " + mediaProvas[i]);
-        }
+        // Imprimindo o resultado das médias das notas
+
+        JOptionPane.showMessageDialog(null, "A médias da prova foi de: \n" + mostraProvas);
 
     }
 
