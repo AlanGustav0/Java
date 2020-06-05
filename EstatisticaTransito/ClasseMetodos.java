@@ -1,12 +1,13 @@
 import javax.swing.JOptionPane;
 
 public class ClasseMetodos {
-  // FUNÇÃO RECEBENDO REGISTROS aluno E RETORNANDO TIPO ALUNO[]
-  public Estatistica[] FCADRASTRAESTATISTICA(Estatistica[] dados) {
+  // FUNÇÃO RECEBENDO REGISTROS DADOS E RETORNANDO TIPO ESTATISTICAS[]
+  public Estatistica[] FCADRASTRAESTATISTICA(final Estatistica[] dados) {
     int i;
 
     for (i = 0; i < 10; i++) {
-      dados[i].CodigoCidade = JOptionPane.showInputDialog("Entre com o código da cidade: ");
+
+      dados[i].CodigoCidade = JOptionPane.showInputDialog((i + 1) + "º Registro \n Entre com o código da cidade: ");
       dados[i].NomeCidade = JOptionPane.showInputDialog("Entre com o nome da cidade: ");
       dados[i].QtdAcidentes = Integer.parseInt(JOptionPane.showInputDialog("Quantidade de acidentes: "));
     }
@@ -14,8 +15,8 @@ public class ClasseMetodos {
     return dados;
   }
 
-  // PROCEDIMENTO RECEBENDO REGISTRO aluno TIPO ALUNO[]
-  public void PQTDACIDENTES(Estatistica[] dados) {
+  // PROCEDIMENTO RECEBENDO REGISTRO dados TIPO ESTATISTICAS[]
+  public void PQTDACIDENTES(final Estatistica[] dados) {
     int i;
     String mostraAcidentes = " ";
 
@@ -30,7 +31,8 @@ public class ClasseMetodos {
     JOptionPane.showMessageDialog(null, mostraAcidentes);
   }
 
-  public void PCONSULTAMAIORMENOR(Estatistica[] dados) {
+  // PROCEDIMENTO CONUSULTA MAIOR E MENOR RECEBENDO REGISTRO dados
+  public void PCONSULTAMAIORMENOR(final Estatistica[] dados) {
 
     int maior = dados[0].QtdAcidentes;
     int menor = dados[0].QtdAcidentes;
@@ -42,7 +44,7 @@ public class ClasseMetodos {
     String mostraMenor = "";
     int i;
 
-    for (i = 0; i < 5; i++) {
+    for (i = 0; i < 10; i++) {
       if (dados[i].QtdAcidentes > maior) {
         maior = dados[i].QtdAcidentes;
         cidadeMaior = dados[i].NomeCidade;
@@ -64,7 +66,8 @@ public class ClasseMetodos {
 
   }
 
-  public void PCONSULTAESTATISTICA(Estatistica[] dados) {
+  // PROCEDIMENTO CONUSULTA ESTATISTICA RECEBENDO REGISTRO dados
+  public void PCONSULTAESTATISTICA(final Estatistica[] dados) {
 
     int totalAcidentes = 0;
     int media = 0;
@@ -77,16 +80,16 @@ public class ClasseMetodos {
 
     media = totalAcidentes / 10;
 
-    JOptionPane.showMessageDialog(null, "Media do número de acidentes" + media);
+    JOptionPane.showMessageDialog(null, "Media do número de acidentes: " + media);
 
-    for (i = 0; i < 5; i++) {
+    for (i = 0; i < 10; i++) {
       if (dados[i].QtdAcidentes > media) {
-        mostraAcidentes += dados[i].CodigoCidade + "\n"
-            + "Cidade: " + dados[i].NomeCidade + "\n" + "Número de Acidentes: " + dados[i].QtdAcidentes + "\n";
+        mostraAcidentes += "Cod: " + dados[i].CodigoCidade + "\n" + "Cidade: " + dados[i].NomeCidade + "\n"
+            + "Número de Acidentes: " + dados[i].QtdAcidentes + "\n";
       }
     }
 
-    JOptionPane.showMessageDialog(null, "Cidades com acidentes acima da média \n" + "Cod: " + mostraAcidentes);
+    JOptionPane.showMessageDialog(null, "Cidades com acidentes acima da média \n" + mostraAcidentes);
 
   }
 

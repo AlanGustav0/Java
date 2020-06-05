@@ -34,10 +34,12 @@ class estatististicas2019 {
                                    m.PCONSULTAMAIORMENOR(dados); // CHAMADA PROCEDIMENTO
                                    break;
 
-                            case 4: m.PCONSULTAESTATISTICA(dados); // CHAMADA PROCEDIMENTO
+                            case 4:
+                                   m.PCONSULTAESTATISTICA(dados); // CHAMADA PROCEDIMENTO
                                    break;
                             case 9:
-                                   JOptionPane.showMessageDialog(null, "Programa finalizado"); // FINALIZAÇÃO DO PROGRAMA
+                                   JOptionPane.showMessageDialog(null, "Programa finalizado"); // FINALIZAÇÃO DO
+                                                                                               // PROGRAMA
                                    break;
                             default:
                                    JOptionPane.showMessageDialog(null, "Opção Inválida"); // DEFAULT
