@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Fibonacci {
 
-
     public static void main(String[] args) {
         int current = 1;
         int previous = 1;
@@ -11,7 +10,7 @@ public class Fibonacci {
 
         Scanner fib = new Scanner(System.in);
 
-        System.out.println("Insert the number");
+        System.out.println("Insert the number: ");
         number = fib.nextInt();
 
         while(count < number){
