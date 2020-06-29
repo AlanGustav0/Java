@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="CaculoIdade"/>
+	<classpathentry kind="src" path="CaixaEletronico/src"/>
+	<classpathentry kind="src" path="CalculoMedia"/>
+	<classpathentry kind="src" path="EstatisticaTransito"/>
+	<classpathentry kind="src" path="Fibonnaci"/>
+	<classpathentry kind="output" path="CaixaEletronico/build/classes"/>
+</classpath>
