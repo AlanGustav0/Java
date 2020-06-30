@@ -40,9 +40,7 @@ public class Validacoes {
             }
 
         }
-
         mostraDatas.VerificarMostrarDatas(diaNasc, mesNasc, anoNasc, diaAtual, mesAtual, anoAtual);
-
     }
 
 }
