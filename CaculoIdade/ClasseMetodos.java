@@ -5,8 +5,7 @@ public class ClasseMetodos {
     /********************************************************************
      * MÓDULO PROCEDIMENTO CONDICIONAIS QUE VERIFICAM E MOSTRAM OS RESULTADOS
      **********************************************************************/
-    static void VerificarMostrarDatas(int diaNasc,int mesNasc,int anoNasc,int diaAtual,int  mesAtual,int anoAtual) {
-
+    static void VerificarMostrarDatas(int diaNasc, int mesNasc, int anoNasc, int diaAtual, int mesAtual, int anoAtual) {
 
         int anoTotal = 0;
         int mesTotal = 0;
@@ -23,7 +22,7 @@ public class ClasseMetodos {
                 diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
                 mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
                 anoTotal = anoAtual - anoNasc;
-                Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+                Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
                 JOptionPane.showMessageDialog(null,
                         "Você tem: " + anoTotal + " anos " + mesTotal + " mes " + " e " + diaTotal + " dia de vida.");
@@ -31,7 +30,7 @@ public class ClasseMetodos {
                 diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
                 mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
                 anoTotal = anoAtual - anoNasc;
-                Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+                Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
                 JOptionPane.showMessageDialog(null, "Você tem: " + anoTotal + " anos " + mesTotal + " meses " + " e "
                         + diaTotal + " dias de vida.");
@@ -47,7 +46,7 @@ public class ClasseMetodos {
                 diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
                 mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
                 anoTotal = anoAtual - anoNasc;
-                Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+                Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
                 JOptionPane.showMessageDialog(null,
                         "Você tem: " + anoTotal + " anos " + mesTotal + " meses " + diaTotal + " dias de vida.");
@@ -60,7 +59,7 @@ public class ClasseMetodos {
             diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
             mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
             anoTotal = anoAtual - anoNasc;
-            Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+            Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
             JOptionPane.showMessageDialog(null,
                     "Você tem: " + anoTotal + " anos " + "e " + mesAtual + " meses de vida.");
@@ -70,7 +69,7 @@ public class ClasseMetodos {
             diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
             mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
             anoTotal = anoAtual - anoNasc;
-            Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+            Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
             JOptionPane.showMessageDialog(null,
                     "Você tem: " + anoTotal + " anos " + mesAtual + " meses e " + diaAtual + " dias de vida.");
@@ -81,7 +80,7 @@ public class ClasseMetodos {
             diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
             mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
             anoTotal = anoAtual - anoNasc;
-            Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+            Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
             JOptionPane.showMessageDialog(null,
                     "Você tem: " + mesTotal + " meses " + " e " + diaTotal + " dias de vida.");
@@ -97,7 +96,7 @@ public class ClasseMetodos {
                 diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
                 mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
                 anoTotal = (anoAtual - anoNasc) - 1;
-                Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+                Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
                 JOptionPane.showMessageDialog(null,
                         "Você tem: " + anoTotal + " anos " + mesTotal + " meses e " + diaTotal + " dia de vida.");
@@ -106,7 +105,7 @@ public class ClasseMetodos {
                 diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
                 mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
                 anoTotal = (anoAtual - anoNasc) - 1;
-                Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+                Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
                 JOptionPane.showMessageDialog(null,
                         "Você tem: " + anoTotal + " anos " + mesTotal + " meses e " + diaTotal + " dias de vida.");
@@ -119,7 +118,7 @@ public class ClasseMetodos {
                 diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
                 mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
                 anoTotal = (anoAtual - anoNasc) - 1;
-                Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+                Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
                 JOptionPane.showMessageDialog(null,
                         "Você tem: " + anoTotal + " anos " + mesTotal + " meses e " + diaTotal + " dia de vida.");
@@ -127,7 +126,7 @@ public class ClasseMetodos {
                 diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
                 mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
                 anoTotal = (anoAtual - anoNasc) - 1;
-                Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+                Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
                 JOptionPane.showMessageDialog(null,
                         "Você tem: " + anoTotal + " anos " + mesTotal + " meses e " + diaTotal + " dias de vida.");
@@ -140,7 +139,7 @@ public class ClasseMetodos {
                 diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
                 mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
                 anoTotal = (anoAtual - anoNasc) - 1;
-                Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+                Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
                 JOptionPane.showMessageDialog(null,
                         "Você tem: " + anoTotal + " anos " + mesTotal + " meses e " + diaTotal + " dia de vida.");
@@ -148,7 +147,7 @@ public class ClasseMetodos {
                 diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
                 mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
                 anoTotal = (anoAtual - anoNasc) - 1;
-                Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+                Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
                 JOptionPane.showMessageDialog(null,
                         "Você tem: " + anoTotal + " anos " + mesTotal + " meses e " + diaTotal + " dias de vida.");
@@ -159,7 +158,7 @@ public class ClasseMetodos {
             diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
             mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
             anoTotal = anoAtual - anoNasc;
-            Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+            Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
             if (diaTotal == 1 && mesTotal == 0 && anoTotal == 0) {
                 JOptionPane.showMessageDialog(null, "Você tem: " + diaTotal + " dia de vida.");
@@ -171,7 +170,7 @@ public class ClasseMetodos {
             diaTotal = CalculaDias(diaNasc, contadorDias, diaAtual);
             mesTotal = CalculaMeses(mesNasc, contadorMes, mesAtual);
             anoTotal = anoAtual - anoNasc;
-            Ordena(diaTotal, mesTotal, anoTotal,anoNasc, anoAtual);
+            Ordena(diaTotal, mesTotal, anoTotal, anoNasc, anoAtual);
 
             if (diaTotal == 0 && mesTotal == 1 && anoTotal == 0) {
                 JOptionPane.showMessageDialog(null, "Você tem: " + mesTotal + " mes de vida.");
@@ -186,8 +185,6 @@ public class ClasseMetodos {
 
     }
     // FIM DAS CONDIÇÕES
-
-    
 
     /********************************************************************
      * MÓDULO FUNÇÃO QUE CALCULA ANOS BISSEXTOS
@@ -246,7 +243,7 @@ public class ClasseMetodos {
     /********************************************************************
      * MÓDULO PROCEDIMENTO ORDENA MESES E DIAS
      **********************************************************************/
-    static void Ordena(int diaTotal, int mesTotal, int anoTotal,int anoNasc, int anoAtual) {
+    static void Ordena(int diaTotal, int mesTotal, int anoTotal, int anoNasc, int anoAtual) {
         diaTotal += CalculaBissexto(anoNasc, anoAtual);
 
         if (diaTotal > 30) {

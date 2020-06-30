@@ -1,6 +1,5 @@
 import javax.swing.JOptionPane;
 
-
 public class Validacoes {
 
     /********************************************************************
@@ -42,8 +41,8 @@ public class Validacoes {
 
         }
 
-        mostraDatas.VerificarMostrarDatas(diaNasc,mesNasc,anoNasc,diaAtual,mesAtual,anoAtual);
-        
+        mostraDatas.VerificarMostrarDatas(diaNasc, mesNasc, anoNasc, diaAtual, mesAtual, anoAtual);
+
     }
-    
+
 }
