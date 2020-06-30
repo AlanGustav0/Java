@@ -5,15 +5,8 @@ public class ClasseMetodos {
     /********************************************************************
      * MÓDULO PROCEDIMENTO CONDICIONAIS QUE VERIFICAM E MOSTRAM OS RESULTADOS
      **********************************************************************/
-    static void VerificarMostrarDatas() {
+    static void VerificarMostrarDatas(int diaNasc,int mesNasc,int anoNasc,int diaAtual,int  mesAtual,int anoAtual) {
 
-        int anoNasc = 0;
-        int mesNasc = 0;
-        int diaNasc = 0;
-
-        int anoAtual = 0;
-        int mesAtual = 0;
-        int diaAtual = 0;
 
         int anoTotal = 0;
         int mesTotal = 0;

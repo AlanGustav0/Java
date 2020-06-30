@@ -17,10 +17,8 @@ class Calcula_Idade {
     public static void main(final String[] args) {
 
         Validacoes validacao = new Validacoes();
-        ClasseMetodos mostraDatas = new ClasseMetodos();
 
         validacao.ValidaDatas();
-        mostraDatas.VerificarMostrarDatas();
     }
 
 

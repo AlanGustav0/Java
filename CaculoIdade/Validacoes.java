@@ -9,6 +9,8 @@ public class Validacoes {
 
     static void ValidaDatas() {
 
+        ClasseMetodos mostraDatas = new ClasseMetodos();
+
         int anoNasc = 0;
         int mesNasc = 0;
         int diaNasc = 0;
@@ -39,6 +41,9 @@ public class Validacoes {
             }
 
         }
+
+        mostraDatas.VerificarMostrarDatas(diaNasc,mesNasc,anoNasc,diaAtual,mesAtual,anoAtual);
+        
     }
     
 }
