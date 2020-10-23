@@ -3,4 +3,4 @@ Projetos desenvolvidos na disciplina Linguagem de Programação da FATEC Zona Le
 
 # Direitos de uso
 Você pode utilizar este material para seu aprendizado sem nenhum problema, sugestões de melhoria são muito bem vindas, 
-afinal, quanto mais fortalecida for a comunidade, melhor será o aproveitamento de todos. Porém em nenhuma hipótese ele pode ser utilizado com a finalidade de ganho financeiro.
+afinal, quanto mais fortalecida for a comunidade, melhor será o aproveitamento de todos.
